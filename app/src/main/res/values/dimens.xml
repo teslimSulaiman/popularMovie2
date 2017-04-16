@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="movie_name_height">90dp</dimen>
+    <dimen name="movie_name_padding">20dp</dimen>
+    <dimen name="movie_name_font_size">20sp</dimen>
+    <dimen name="image_width">170dp</dimen>
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="image_margin">180dp</dimen>
+    <dimen name="released_date_font_size">35sp</dimen>
+    <dimen name="text_view_margin_top">5dp</dimen>
+    <dimen name="rating_font_size">20sp</dimen>
+    <dimen name="overview_font_size">16sp</dimen>
+    <dimen name="overview_margin">30dp</dimen>
+    <dimen name="grid_column_width">150dp</dimen>
+    <dimen name="movie_image_grid_height">250dp</dimen>
+
+</resources>
