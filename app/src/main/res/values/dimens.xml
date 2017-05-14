@@ -16,5 +16,6 @@
     <dimen name="overview_margin">30dp</dimen>
     <dimen name="grid_column_width">150dp</dimen>
     <dimen name="movie_image_grid_height">250dp</dimen>
+    <dimen name="trailer_label_font_size">20sp</dimen>
 
 </resources>

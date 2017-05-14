@@ -54,6 +54,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/text_view_margin_top"
                     android:textSize="@dimen/rating_font_size" />
+                <CheckBox
+                    android:id="@+id/favorite"
+                    style="?android:attr/starStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_view_margin_top"
+
+                     />
 
             </LinearLayout>
         </LinearLayout>
@@ -63,7 +71,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/overview_margin"
+            android:text="some text here"
             android:textSize="@dimen/overview_font_size" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trailer_label"
+            android:id="@+id/trailerButton"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorAccent"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review_label"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/reviewButton"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 </ScrollView>

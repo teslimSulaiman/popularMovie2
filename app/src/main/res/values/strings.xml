@@ -26,9 +26,20 @@
     <!-- Value in SharedPreferences for highest rated option [CHAR LIMIT=NONE] -->
     <string name="pref_movie_rated" translatable="false">top_rated</string>
 
-    <string name="title_activity_detail">MovieDetail</string>
+    <string name="pref_favorite_movie" translatable="false">favorite</string>
+
+    <string name="pref_units_label_favorite">Favorites</string>
+
+    <string name="title_activity_detail">Movie Detail</string>
+
+    <string name="title_activity_trailer">Trailers</string>
+
+    <string name="trailer_label">Trailer </string>
+
+    <string name="review_label">Review </string>
 
     <string name="movie_image_description">movie image</string>
+    <string name="title_activity_review">Reviews</string>
 
 
 </resources>

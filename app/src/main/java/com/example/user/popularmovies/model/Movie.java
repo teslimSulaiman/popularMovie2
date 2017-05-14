@@ -1,4 +1,4 @@
-package com.example.user.popularmovies;
+package com.example.user.popularmovies.model;
 
 import java.io.Serializable;
 
@@ -13,13 +13,23 @@ public class Movie implements Serializable {
     private String overview;
     private double rating;
     private String releaseDate;
+    private String id;
 
-    public Movie(String title, String imageUrl, String overview, double rating, String releaseDate) {
+    public Movie(String title, String imageUrl, String overview, double rating, String releaseDate, String id) {
         this.title = title;
         this.imageUrl = imageUrl;
         this.overview = overview;
         this.rating = rating;
         this.releaseDate = releaseDate;
+        this.id = id;
+    }
+
+    public String getMovieId() {
+        return id;
+    }
+
+    public void setMovieId(String title) {
+        this.id = id;
     }
 
     public String getTitle() {

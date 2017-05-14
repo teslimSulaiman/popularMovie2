@@ -4,10 +4,12 @@
     <string-array name="pref_units_options">
         <item>@string/pref_movie_label_popular</item>
         <item>@string/pref_units_label_rated</item>
+        <item>@string/pref_units_label_favorite</item>
     </string-array>
 
     <string-array name="pref_units_values">
         <item>@string/pref_movie_popular</item>
         <item>@string/pref_movie_rated</item>
+        <item>@string/pref_favorite_movie</item>
     </string-array>
 </resources>
